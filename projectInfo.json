@@ -1,0 +1,18 @@
+{
+    "productId": "prd_SPM",
+    "contractId": "ctr_C-1ED34DY",
+    "groupIds": [
+        63802
+    ],
+    "environments": [
+        "dev",
+        "stage",
+        "prod"
+    ],
+    "version": "0.4.0",
+    "isSecure": true,
+    "edgeGridConfig": {
+        "section": "papi"
+    },
+    "name": "epic-pl-demo"
+}

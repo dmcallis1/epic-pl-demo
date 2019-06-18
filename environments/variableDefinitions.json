@@ -1,0 +1,20 @@
+{
+    "definitions": {
+        "PMUSER_FOOCPCODE_value": {
+            "type": "userVariableValue",
+            "default": "12345"
+        },
+        "PMUSER_ORIGIN_value": {
+            "type": "userVariableValue",
+            "default": "origin.akshayranganath.com"
+        },
+        "PMUSER_ADV1_value": {
+            "type": "userVariableValue",
+            "default": "/assets/*"
+        },
+        "PMUSER_ADV2_value": {
+            "type": "userVariableValue",
+            "default": "1"
+        }
+    }
+}

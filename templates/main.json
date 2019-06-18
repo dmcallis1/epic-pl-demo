@@ -1,0 +1,107 @@
+{
+    "rules": {
+        "name": "default",
+        "children": [
+            "#include:performance.json",
+            "#include:Offload.json",
+            "#include:Mobile_Redirect.json",
+            "#include:mPulse.json",
+            "#include:X-Frame-Options.json",
+            "#include:Deny_Specific_Referrer.json",
+            "#include:Deny_Specific_Referrer_2.json",
+            "#include:Deny_by_Location.json"
+        ],
+        "behaviors": [
+            {
+                "name": "origin",
+                "options": {
+                    "cacheKeyHostname": "ORIGIN_HOSTNAME",
+                    "compress": true,
+                    "enableTrueClientIp": false,
+                    "forwardHostHeader": "ORIGIN_HOSTNAME",
+                    "httpPort": 80,
+                    "originType": "CUSTOMER",
+                    "hostname": "origin.akshayranganath.com",
+                    "originCertificate": "",
+                    "verificationMode": "PLATFORM_SETTINGS",
+                    "ports": "",
+                    "httpsPort": 443,
+                    "originSni": false
+                }
+            },
+            {
+                "name": "allowPost",
+                "options": {
+                    "allowWithoutContentLength": false,
+                    "enabled": true
+                }
+            },
+            {
+                "name": "realUserMonitoring",
+                "options": {
+                    "enabled": true
+                }
+            },
+            {
+                "name": "prefetch",
+                "options": {
+                    "enabled": true
+                }
+            },
+            {
+                "name": "removeVary",
+                "options": {
+                    "enabled": true
+                }
+            },
+            {
+                "name": "cpCode",
+                "options": {
+                    "value": {
+                        "id": 612238
+                    }
+                }
+            },
+            {
+                "name": "customBehavior",
+                "options": {
+                    "behaviorId": "cbe_74838815"
+                }
+            }
+        ],
+        "options": {
+            "is_secure": true
+        },
+        "variables": [
+            {
+                "name": "PMUSER_FOOCPCODE",
+                "value": "${env.PMUSER_FOOCPCODE_value}",
+                "description": "CP Code",
+                "hidden": false,
+                "sensitive": false
+            },
+            {
+                "name": "PMUSER_ORIGIN",
+                "value": "${env.PMUSER_ORIGIN_value}",
+                "description": "Origin",
+                "hidden": false,
+                "sensitive": false
+            },
+            {
+                "name": "PMUSER_ADV1",
+                "value": "${env.PMUSER_ADV1_value}",
+                "description": "Test",
+                "hidden": false,
+                "sensitive": false
+            },
+            {
+                "name": "PMUSER_ADV2",
+                "value": "${env.PMUSER_ADV2_value}",
+                "description": "Test",
+                "hidden": false,
+                "sensitive": false
+            }
+        ],
+        "comments": "The behaviors in the Default Rule apply to all requests for the property hostname(s) unless another rule overrides the Default Rule settings."
+    }
+}

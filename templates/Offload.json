@@ -1,0 +1,43 @@
+{
+    "name": "Offload",
+    "children": [
+        "#include:Offload/CSS_and_Javascript.json",
+        "#include:Offload/Static_Objects.json",
+        "#include:Offload/Uncacheable_Responses.json",
+        "#include:Offload/Homepage_Caching.json"
+    ],
+    "behaviors": [
+        {
+            "name": "caching",
+            "options": {
+                "behavior": "NO_STORE"
+            }
+        },
+        {
+            "name": "cacheError",
+            "options": {
+                "enabled": true,
+                "preserveStale": true,
+                "ttl": "10s"
+            }
+        },
+        {
+            "name": "downstreamCache",
+            "options": {
+                "allowBehavior": "LESSER",
+                "behavior": "ALLOW",
+                "sendHeaders": "CACHE_CONTROL_AND_EXPIRES",
+                "sendPrivate": false
+            }
+        },
+        {
+            "name": "tieredDistribution",
+            "options": {
+                "enabled": true
+            }
+        }
+    ],
+    "criteria": [],
+    "criteriaMustSatisfy": "all",
+    "comments": "Controls caching, which offloads traffic away from the origin. Most objects types are not cached. However, the child rules override this behavior for certain subsets of requests."
+}

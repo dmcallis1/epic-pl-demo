@@ -1,0 +1,125 @@
+{
+    "name": "dev",
+    "propertyName": "dev.epic-pl-demo",
+    "groupId": 63802,
+    "isSecure": true,
+    "propertyId": 551797,
+    "latestVersionInfo": {
+        "propertyVersion": 7,
+        "updatedByUser": "qvwonvxqatf6ad5i",
+        "updatedDate": "2019-06-18T16:37:26Z",
+        "productionStatus": "INACTIVE",
+        "stagingStatus": "INACTIVE",
+        "etag": "1c1ac312080a59b14efae4350826e3352caf672a",
+        "productId": "prd_SPM",
+        "ruleFormat": "v2017-06-19"
+    },
+    "suggestedRuleFormat": "v2017-06-19",
+    "environmentHash": "bdd4accb12f460d11df5e5f429c1a299d3b32d045cc46d48c7709fc2772a91b0",
+    "ruleTreeHash": "8b804f78aac22cc6dc42d876aa24b1edbed8f2097d0f3639bc70548677fc9e17",
+    "lastSavedHash": "bdd4accb12f460d11df5e5f429c1a299d3b32d045cc46d48c7709fc2772a91b0",
+    "lastValidatedHash": "bdd4accb12f460d11df5e5f429c1a299d3b32d045cc46d48c7709fc2772a91b0",
+    "lastSaveWarnings": [
+        {
+            "type": "https://problems.luna.akamaiapis.net/papi/v0/validation/validation_message.ssl_delegate_warning_intro",
+            "errorLocation": {
+                "template": "templates/main.json",
+                "variables": [],
+                "location": "rules/behaviors/0",
+                "value": {
+                    "name": "origin",
+                    "options": {
+                        "cacheKeyHostname": "ORIGIN_HOSTNAME",
+                        "compress": true,
+                        "enableTrueClientIp": false,
+                        "forwardHostHeader": "ORIGIN_HOSTNAME",
+                        "httpPort": 80,
+                        "originType": "CUSTOMER",
+                        "hostname": "origin.akshayranganath.com",
+                        "originCertificate": "",
+                        "verificationMode": "PLATFORM_SETTINGS",
+                        "ports": "",
+                        "httpsPort": 443,
+                        "originSni": false
+                    }
+                }
+            },
+            "detail": "Akamai enhanced the `Origin Server` behavior. Before configuring any settings, click the <strong>Verification Settings</strong> drop-down menu and read the context-sensitive information that appears."
+        },
+        {
+            "type": "https://problems.luna.akamaiapis.net/papi/v0/validation/validation_message.ssl_delegate_warning_rotate",
+            "errorLocation": {
+                "template": "templates/main.json",
+                "variables": [],
+                "location": "rules/behaviors/0",
+                "value": {
+                    "name": "origin",
+                    "options": {
+                        "cacheKeyHostname": "ORIGIN_HOSTNAME",
+                        "compress": true,
+                        "enableTrueClientIp": false,
+                        "forwardHostHeader": "ORIGIN_HOSTNAME",
+                        "httpPort": 80,
+                        "originType": "CUSTOMER",
+                        "hostname": "origin.akshayranganath.com",
+                        "originCertificate": "",
+                        "verificationMode": "PLATFORM_SETTINGS",
+                        "ports": "",
+                        "httpsPort": 443,
+                        "originSni": false
+                    }
+                }
+            },
+            "detail": "If your `Origin Server` uses HTTPS, make sure to follow <a href=\"/dl/property-manager/property-manager-help/csh_lookup.html?id=PM_0034\" target=\"_blank\">this procedure</a> to avoid a service outage or a security breach when you rotate your origin's certificate."
+        },
+        {
+            "type": "https://problems.luna.akamaiapis.net/papi/v0/validation/need_feature",
+            "errorLocation": {
+                "template": "templates/Mobile_Redirect.json",
+                "variables": [],
+                "location": "criteria/0",
+                "value": {
+                    "name": "deviceCharacteristic",
+                    "options": {
+                        "characteristic": "IS_WIRELESS_DEVICE",
+                        "booleanValue": true
+                    }
+                }
+            },
+            "detail": "When you're modifying the content returned to the user based on `Device Characteristics`, you should use the Modify Outgoing Response Header behavior to add a Vary: User-Agent header to the response."
+        },
+        {
+            "type": "https://problems.luna.akamaiapis.net/papi/v0/validation/validation_message.onlyonedge",
+            "errorLocation": {
+                "template": "templates/Deny_by_Location.json",
+                "variables": [],
+                "location": "criteria/0",
+                "value": {
+                    "name": "userLocation",
+                    "options": {
+                        "field": "CONTINENT",
+                        "checkIps": "CONNECTING",
+                        "continentValues": [
+                            "NA"
+                        ],
+                        "matchOperator": "IS_ONE_OF"
+                    }
+                }
+            },
+            "detail": "The behaviors and matches enclosed within a `User Location Data` match will only be executed by the Akamai edge server that receives the client request. If the request is forwarded to another Akamai server, the matches and behaviors enclosed will be ignored. If you are unsure about how this will affect your property please contact your Akamai Technical representative."
+        }
+    ],
+    "lastSaveErrors": [],
+    "lastSaveHostnameErrors": [],
+    "lastSavedHostnamesHash": "95ceef95368761a7f393508dc9479b342145a22e56b3e5f7b918be9fd925c01b",
+    "activeIn_STAGING_Info": {
+        "propertyVersion": 5,
+        "updatedByUser": "qvwonvxqatf6ad5i",
+        "updatedDate": "2019-06-18T16:37:26Z",
+        "productionStatus": "INACTIVE",
+        "stagingStatus": "ACTIVE",
+        "etag": "be6897de1bfbf80492d48b630679012807e44c47",
+        "productId": "prd_SPM",
+        "ruleFormat": "v2017-06-19"
+    }
+}

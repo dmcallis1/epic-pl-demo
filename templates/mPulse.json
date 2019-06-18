@@ -1,0 +1,16 @@
+{
+    "name": "mPulse",
+    "children": [],
+    "behaviors": [
+        {
+            "name": "mPulse",
+            "options": {
+                "enabled": true,
+                "apiKey": "Y34S4-328WQ-5BWX5-Q28QS-8PZZL",
+                "bufferSize": ""
+            }
+        }
+    ],
+    "criteria": [],
+    "criteriaMustSatisfy": "all"
+}

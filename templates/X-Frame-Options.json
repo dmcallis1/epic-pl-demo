@@ -1,0 +1,29 @@
+{
+    "name": "X-Frame-Options",
+    "children": [],
+    "behaviors": [
+        {
+            "name": "modifyOutgoingResponseHeader",
+            "options": {
+                "action": "MODIFY",
+                "standardModifyHeaderName": "OTHER",
+                "newHeaderValue": "ALLOW-FROM https://example.com/",
+                "avoidDuplicateHeaders": true,
+                "customHeaderName": "X-Frame-Options"
+            }
+        }
+    ],
+    "criteria": [
+        {
+            "name": "filename",
+            "options": {
+                "matchOperator": "IS_ONE_OF",
+                "values": [
+                    "crossdomain.xml"
+                ],
+                "matchCaseSensitive": true
+            }
+        }
+    ],
+    "criteriaMustSatisfy": "all"
+}

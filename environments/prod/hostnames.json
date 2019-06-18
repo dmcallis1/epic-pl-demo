@@ -1,0 +1,8 @@
+[
+    {
+        "cnameFrom": "prod.epic-pl-demo.info",
+        "cnameTo": "prod.epic-pl-demo.edgesuite.net",
+        "cnameType": "EDGE_HOSTNAME",
+        "edgeHostnameId": 3682228
+    }
+]

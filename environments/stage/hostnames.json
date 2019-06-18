@@ -1,0 +1,8 @@
+[
+    {
+        "cnameFrom": "stage.epic-pl-demo.info",
+        "cnameTo": "stage.epic-pl-demo.edgesuite.net",
+        "cnameType": "EDGE_HOSTNAME",
+        "edgeHostnameId": 3682194
+    }
+]
