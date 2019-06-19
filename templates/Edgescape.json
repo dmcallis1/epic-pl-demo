@@ -1,0 +1,21 @@
+{
+    "name": "Edgescape",
+    "children": [],
+    "behaviors": [
+        {
+            "name": "responseCookie",
+            "options": {
+                "cookieName": "edgescape",
+                "enabled": true,
+                "type": "FIXED",
+                "defaultDomain": true,
+                "defaultPath": true,
+                "expires": "ON_BROWSER_CLOSE",
+                "secure": false,
+                "value": "mobile"
+            }
+        }
+    ],
+    "criteria": [],
+    "criteriaMustSatisfy": "all"
+}
