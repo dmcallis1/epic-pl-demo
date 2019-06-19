@@ -7,18 +7,18 @@
     "latestVersionInfo": {
         "propertyVersion": 13,
         "updatedByUser": "qvwonvxqatf6ad5i",
-        "updatedDate": "2019-06-19T19:07:29Z",
+        "updatedDate": "2019-06-19T19:42:02Z",
         "productionStatus": "INACTIVE",
-        "stagingStatus": "INACTIVE",
-        "etag": "fcd31eaf800cc5bd055a54b3d525a7ba0a9cf082",
+        "stagingStatus": "ACTIVE",
+        "etag": "38484b502a01f6324ac57334c932247a219d6a57",
         "productId": "prd_SPM",
         "ruleFormat": "v2017-06-19"
     },
     "suggestedRuleFormat": "v2017-06-19",
-    "environmentHash": "bdd4accb12f460d11df5e5f429c1a299d3b32d045cc46d48c7709fc2772a91b0",
-    "ruleTreeHash": "8b804f78aac22cc6dc42d876aa24b1edbed8f2097d0f3639bc70548677fc9e17",
-    "lastSavedHash": "bdd4accb12f460d11df5e5f429c1a299d3b32d045cc46d48c7709fc2772a91b0",
-    "lastValidatedHash": "bdd4accb12f460d11df5e5f429c1a299d3b32d045cc46d48c7709fc2772a91b0",
+    "environmentHash": "3b94aefdc487afa67ce26f8c3287d5a9d63e00bf0e717122c2ddec655aa0e101",
+    "ruleTreeHash": "dd97e91f10655fdc439d86ac3b956d786c99cf354a6b6234203976a1da973fb5",
+    "lastSavedHash": "3b94aefdc487afa67ce26f8c3287d5a9d63e00bf0e717122c2ddec655aa0e101",
+    "lastValidatedHash": "3b94aefdc487afa67ce26f8c3287d5a9d63e00bf0e717122c2ddec655aa0e101",
     "lastSaveWarnings": [
         {
             "type": "https://problems.luna.akamaiapis.net/papi/v0/validation/validation_message.ssl_delegate_warning_intro",
@@ -113,12 +113,12 @@
     "lastSaveHostnameErrors": [],
     "lastSavedHostnamesHash": "95ceef95368761a7f393508dc9479b342145a22e56b3e5f7b918be9fd925c01b",
     "activeIn_STAGING_Info": {
-        "propertyVersion": 12,
+        "propertyVersion": 13,
         "updatedByUser": "qvwonvxqatf6ad5i",
-        "updatedDate": "2019-06-19T19:07:29Z",
+        "updatedDate": "2019-06-19T19:42:02Z",
         "productionStatus": "INACTIVE",
         "stagingStatus": "ACTIVE",
-        "etag": "8da6a17442e55c22ad622d8695234fb3ef17257b",
+        "etag": "38484b502a01f6324ac57334c932247a219d6a57",
         "productId": "prd_SPM",
         "ruleFormat": "v2017-06-19"
     }
