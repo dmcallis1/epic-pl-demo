@@ -5,12 +5,12 @@
     "isSecure": true,
     "propertyId": 551797,
     "latestVersionInfo": {
-        "propertyVersion": 15,
+        "propertyVersion": 16,
         "updatedByUser": "qvwonvxqatf6ad5i",
         "updatedDate": "2019-06-19T19:47:24Z",
         "productionStatus": "INACTIVE",
-        "stagingStatus": "INACTIVE",
-        "etag": "42e98c0dc774828d0b34452827baeceef974f9fa",
+        "stagingStatus": "ACTIVE",
+        "etag": "327bf289bb80010f03a5e63eac26b21b70623288",
         "productId": "prd_SPM",
         "ruleFormat": "v2017-06-19"
     },
