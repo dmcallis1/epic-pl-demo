@@ -540,8 +540,8 @@
                         "options": {
                             "action": "ADD",
                             "standardAddHeaderName": "OTHER",
-                            "headerValue": "stage",
-                            "customHeaderName": "foo"
+                            "headerValue": "bar",
+                            "customHeaderName": "stage"
                         }
                     }
                 ],

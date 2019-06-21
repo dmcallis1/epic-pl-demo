@@ -8,7 +8,7 @@
                 "action": "ADD",
                 "standardAddHeaderName": "OTHER",
                 "headerValue": "bar",
-                "customHeaderName": "foo"
+                "customHeaderName": "${env.headerValue}"
             }
         }
     ],
