@@ -5,20 +5,20 @@
     "isSecure": true,
     "propertyId": 551797,
     "latestVersionInfo": {
-        "propertyVersion": 18,
+        "propertyVersion": 19,
         "updatedByUser": "qvwonvxqatf6ad5i",
-        "updatedDate": "2019-06-21T14:30:25Z",
+        "updatedDate": "2019-06-26T12:32:38Z",
         "productionStatus": "INACTIVE",
         "stagingStatus": "ACTIVE",
-        "etag": "da329cf16e3f0b3e74197fb3fc609186e005e55e",
+        "etag": "b1c3dc86a7e9b76156589e84bd0c4acf00b1802d",
         "productId": "prd_SPM",
         "ruleFormat": "v2017-06-19"
     },
     "suggestedRuleFormat": "v2017-06-19",
-    "environmentHash": "3a24cf27369cd915fbd590a6c05ef396c9fb5b1c85366664c97f0bd34dab973f",
-    "ruleTreeHash": "b0aec4ae48dfbb852491e25b0002a2d09fcc1efe8d6470f005e5766e5c32b216",
-    "lastSavedHash": "3a24cf27369cd915fbd590a6c05ef396c9fb5b1c85366664c97f0bd34dab973f",
-    "lastValidatedHash": "3a24cf27369cd915fbd590a6c05ef396c9fb5b1c85366664c97f0bd34dab973f",
+    "environmentHash": "bdd4accb12f460d11df5e5f429c1a299d3b32d045cc46d48c7709fc2772a91b0",
+    "ruleTreeHash": "8b804f78aac22cc6dc42d876aa24b1edbed8f2097d0f3639bc70548677fc9e17",
+    "lastSavedHash": "bdd4accb12f460d11df5e5f429c1a299d3b32d045cc46d48c7709fc2772a91b0",
+    "lastValidatedHash": "bdd4accb12f460d11df5e5f429c1a299d3b32d045cc46d48c7709fc2772a91b0",
     "lastSaveWarnings": [
         {
             "type": "https://problems.luna.akamaiapis.net/papi/v0/validation/validation_message.ssl_delegate_warning_intro",
@@ -113,12 +113,12 @@
     "lastSaveHostnameErrors": [],
     "lastSavedHostnamesHash": "95ceef95368761a7f393508dc9479b342145a22e56b3e5f7b918be9fd925c01b",
     "activeIn_STAGING_Info": {
-        "propertyVersion": 18,
+        "propertyVersion": 19,
         "updatedByUser": "qvwonvxqatf6ad5i",
-        "updatedDate": "2019-06-21T14:30:25Z",
+        "updatedDate": "2019-06-26T12:32:38Z",
         "productionStatus": "INACTIVE",
         "stagingStatus": "ACTIVE",
-        "etag": "da329cf16e3f0b3e74197fb3fc609186e005e55e",
+        "etag": "b1c3dc86a7e9b76156589e84bd0c4acf00b1802d",
         "productId": "prd_SPM",
         "ruleFormat": "v2017-06-19"
     }

@@ -15,10 +15,6 @@
         "PMUSER_ADV2_value": {
             "type": "userVariableValue",
             "default": "1"
-        },
-        "headerValue": {
-            "type": "string",
-            "default": null
         }
     }
 }

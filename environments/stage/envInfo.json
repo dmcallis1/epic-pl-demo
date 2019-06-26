@@ -5,20 +5,20 @@
     "isSecure": true,
     "propertyId": 551798,
     "latestVersionInfo": {
-        "propertyVersion": 3,
+        "propertyVersion": 4,
         "updatedByUser": "qvwonvxqatf6ad5i",
-        "updatedDate": "2019-06-21T14:33:13Z",
+        "updatedDate": "2019-06-26T15:06:49Z",
         "productionStatus": "INACTIVE",
-        "stagingStatus": "ACTIVE",
-        "etag": "34c1560c200686ba9344957111f527e9fef82303",
+        "stagingStatus": "PENDING",
+        "etag": "4271ab61ca915dbffb70f9621374e43f5e5018e4",
         "productId": "prd_SPM",
         "ruleFormat": "v2017-06-19"
     },
     "suggestedRuleFormat": "v2017-06-19",
-    "environmentHash": "3e3c186d544293a580dd0c3508f248555494ac17fee6016e99c3aa6f25603edd",
-    "ruleTreeHash": "188324d36cc21a5fbb8bb0284c3e9626b6e5763a9b31bcbddd6e65bd5486d2ce",
-    "lastSavedHash": "3e3c186d544293a580dd0c3508f248555494ac17fee6016e99c3aa6f25603edd",
-    "lastValidatedHash": "3e3c186d544293a580dd0c3508f248555494ac17fee6016e99c3aa6f25603edd",
+    "environmentHash": "bdd4accb12f460d11df5e5f429c1a299d3b32d045cc46d48c7709fc2772a91b0",
+    "ruleTreeHash": "8b804f78aac22cc6dc42d876aa24b1edbed8f2097d0f3639bc70548677fc9e17",
+    "lastSavedHash": "bdd4accb12f460d11df5e5f429c1a299d3b32d045cc46d48c7709fc2772a91b0",
+    "lastValidatedHash": "bdd4accb12f460d11df5e5f429c1a299d3b32d045cc46d48c7709fc2772a91b0",
     "lastSaveWarnings": [
         {
             "type": "https://problems.luna.akamaiapis.net/papi/v0/validation/validation_message.ssl_delegate_warning_intro",
@@ -121,5 +121,8 @@
         "etag": "34c1560c200686ba9344957111f527e9fef82303",
         "productId": "prd_SPM",
         "ruleFormat": "v2017-06-19"
+    },
+    "pendingActivations": {
+        "STAGING": 7361535
     }
 }
