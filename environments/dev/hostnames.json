@@ -4,5 +4,12 @@
         "cnameTo": "dev.epic-pl-demo.edgesuite.net",
         "cnameType": "EDGE_HOSTNAME",
         "edgeHostnameId": 3679636
+    },
+    {   
+        "cnameFrom": "dev.l5ptreehouse.com",
+        "cnameTo": "dev.l5ptreehouse.com.edgekey.net",
+	   	"certEnrollmentId": "74470",
+        "cnameType": "EDGE_HOSTNAME",
+        "edgeHostnameId": 3697449
     }
 ]

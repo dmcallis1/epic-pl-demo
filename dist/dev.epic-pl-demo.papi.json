@@ -530,6 +530,23 @@
                 ],
                 "criteriaMustSatisfy": "all",
                 "comments": "List the locations that need to be denied"
+            },
+            {
+                "name": "Add Header",
+                "children": [],
+                "behaviors": [
+                    {
+                        "name": "modifyOutgoingResponseHeader",
+                        "options": {
+                            "action": "ADD",
+                            "standardAddHeaderName": "OTHER",
+                            "headerValue": "bar",
+                            "customHeaderName": "foo"
+                        }
+                    }
+                ],
+                "criteria": [],
+                "criteriaMustSatisfy": "all"
             }
         ],
         "behaviors": [

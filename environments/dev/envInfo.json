@@ -7,18 +7,18 @@
     "latestVersionInfo": {
         "propertyVersion": 20,
         "updatedByUser": "qvwonvxqatf6ad5i",
-        "updatedDate": "2019-06-26T12:32:38Z",
+        "updatedDate": "2019-06-26T20:46:08Z",
         "productionStatus": "INACTIVE",
-        "stagingStatus": "INACTIVE",
-        "etag": "fe6061e85ff1ec88ff651c03dd834a80191b9ead",
+        "stagingStatus": "ACTIVE",
+        "etag": "b3cb3d532d4a927d07cef6c232e329db337db508",
         "productId": "prd_SPM",
         "ruleFormat": "v2017-06-19"
     },
     "suggestedRuleFormat": "v2017-06-19",
-    "environmentHash": "bdd4accb12f460d11df5e5f429c1a299d3b32d045cc46d48c7709fc2772a91b0",
-    "ruleTreeHash": "8b804f78aac22cc6dc42d876aa24b1edbed8f2097d0f3639bc70548677fc9e17",
-    "lastSavedHash": "bdd4accb12f460d11df5e5f429c1a299d3b32d045cc46d48c7709fc2772a91b0",
-    "lastValidatedHash": "bdd4accb12f460d11df5e5f429c1a299d3b32d045cc46d48c7709fc2772a91b0",
+    "environmentHash": "dc7fe7f05e4180bf39e36fc76ad0a6a75392982620f059486c90d88f66afe862",
+    "ruleTreeHash": "a7a2a130b56a52a7575aa97bfcd894bcfe269bfae6278197b4319d28785ad7de",
+    "lastSavedHash": "dc7fe7f05e4180bf39e36fc76ad0a6a75392982620f059486c90d88f66afe862",
+    "lastValidatedHash": "dc7fe7f05e4180bf39e36fc76ad0a6a75392982620f059486c90d88f66afe862",
     "lastSaveWarnings": [
         {
             "type": "https://problems.luna.akamaiapis.net/papi/v0/validation/validation_message.ssl_delegate_warning_intro",
@@ -111,14 +111,14 @@
     ],
     "lastSaveErrors": [],
     "lastSaveHostnameErrors": [],
-    "lastSavedHostnamesHash": "95ceef95368761a7f393508dc9479b342145a22e56b3e5f7b918be9fd925c01b",
+    "lastSavedHostnamesHash": "edf2a9ee55979061df70a357417dcd1891fb2eb9b501a8c8f85d71cbd42fc6d0",
     "activeIn_STAGING_Info": {
-        "propertyVersion": 19,
+        "propertyVersion": 20,
         "updatedByUser": "qvwonvxqatf6ad5i",
-        "updatedDate": "2019-06-26T12:32:38Z",
+        "updatedDate": "2019-06-26T20:46:08Z",
         "productionStatus": "INACTIVE",
         "stagingStatus": "ACTIVE",
-        "etag": "b1c3dc86a7e9b76156589e84bd0c4acf00b1802d",
+        "etag": "b3cb3d532d4a927d07cef6c232e329db337db508",
         "productId": "prd_SPM",
         "ruleFormat": "v2017-06-19"
     }
