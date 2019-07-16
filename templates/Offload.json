@@ -1,10 +1,209 @@
 {
     "name": "Offload",
     "children": [
-        "#include:Offload/CSS_and_Javascript.json",
-        "#include:Offload/Static_Objects.json",
-        "#include:Offload/Uncacheable_Responses.json",
-        "#include:Offload/Homepage_Caching.json"
+        {
+            "name": "CSS and JavaScript",
+            "children": [],
+            "behaviors": [
+                {
+                    "name": "caching",
+                    "options": {
+                        "behavior": "MAX_AGE",
+                        "mustRevalidate": false,
+                        "ttl": "7d"
+                    }
+                },
+                {
+                    "name": "prefreshCache",
+                    "options": {
+                        "enabled": true,
+                        "prefreshval": 90
+                    }
+                },
+                {
+                    "name": "prefetchable",
+                    "options": {
+                        "enabled": true
+                    }
+                }
+            ],
+            "criteria": [
+                {
+                    "name": "fileExtension",
+                    "options": {
+                        "matchOperator": "IS_ONE_OF",
+                        "values": [
+                            "css",
+                            "js"
+                        ],
+                        "matchCaseSensitive": false
+                    }
+                }
+            ],
+            "criteriaMustSatisfy": "any",
+            "comments": "Overrides the default caching behavior for CSS and JavaScript objects that are cached on the edge server. Because these object types are dynamic, the TTL is brief."
+        },
+        {
+            "name": "Static Objects",
+            "children": [],
+            "behaviors": [
+                {
+                    "name": "caching",
+                    "options": {
+                        "behavior": "MAX_AGE",
+                        "mustRevalidate": false,
+                        "ttl": "7d"
+                    }
+                },
+                {
+                    "name": "prefreshCache",
+                    "options": {
+                        "enabled": true,
+                        "prefreshval": 90
+                    }
+                },
+                {
+                    "name": "prefetchable",
+                    "options": {
+                        "enabled": true
+                    }
+                }
+            ],
+            "criteria": [
+                {
+                    "name": "fileExtension",
+                    "options": {
+                        "matchCaseSensitive": false,
+                        "matchOperator": "IS_ONE_OF",
+                        "values": [
+                            "aif",
+                            "aiff",
+                            "au",
+                            "avi",
+                            "bin",
+                            "bmp",
+                            "cab",
+                            "carb",
+                            "cct",
+                            "cdf",
+                            "class",
+                            "doc",
+                            "dcr",
+                            "dtd",
+                            "exe",
+                            "flv",
+                            "gcf",
+                            "gff",
+                            "gif",
+                            "grv",
+                            "hdml",
+                            "hqx",
+                            "ico",
+                            "ini",
+                            "jpeg",
+                            "jpg",
+                            "mov",
+                            "mp3",
+                            "nc",
+                            "pct",
+                            "pdf",
+                            "png",
+                            "ppc",
+                            "pws",
+                            "swa",
+                            "swf",
+                            "txt",
+                            "vbs",
+                            "w32",
+                            "wav",
+                            "wbmp",
+                            "wml",
+                            "wmlc",
+                            "wmls",
+                            "wmlsc",
+                            "xsd",
+                            "zip",
+                            "pict",
+                            "tif",
+                            "tiff",
+                            "mid",
+                            "midi",
+                            "ttf",
+                            "eot",
+                            "woff",
+                            "woff2",
+                            "otf",
+                            "svg",
+                            "svgz",
+                            "webp",
+                            "jxr",
+                            "jar",
+                            "jp2",
+                            "abc"
+                        ]
+                    }
+                }
+            ],
+            "criteriaMustSatisfy": "any",
+            "comments": "Overrides the default caching behavior for images, music, and similar objects that are cached on the edge server. Because these object types are static, the TTL is long."
+        },
+        {
+            "name": "Uncacheable Responses",
+            "children": [],
+            "behaviors": [
+                {
+                    "name": "downstreamCache",
+                    "options": {
+                        "behavior": "TUNNEL_ORIGIN"
+                    }
+                }
+            ],
+            "criteria": [
+                {
+                    "name": "cacheability",
+                    "options": {
+                        "matchOperator": "IS_NOT",
+                        "value": "CACHEABLE"
+                    }
+                }
+            ],
+            "criteriaMustSatisfy": "all",
+            "comments": "Overrides the default downstream caching behavior for uncacheable object types. Instructs the edge server to pass Cache-Control and/or Expire headers from the origin to the client."
+        },
+        {
+            "name": "Homepage Caching",
+            "children": [],
+            "behaviors": [
+                {
+                    "name": "caching",
+                    "options": {
+                        "behavior": "MAX_AGE",
+                        "mustRevalidate": false,
+                        "ttl": "0s"
+                    }
+                },
+                {
+                    "name": "prefreshCache",
+                    "options": {
+                        "enabled": true,
+                        "prefreshval": 90
+                    }
+                }
+            ],
+            "criteria": [
+                {
+                    "name": "path",
+                    "options": {
+                        "matchOperator": "MATCHES_ONE_OF",
+                        "values": [
+                            "/"
+                        ],
+                        "matchCaseSensitive": false
+                    }
+                }
+            ],
+            "criteriaMustSatisfy": "all"
+        }
     ],
     "behaviors": [
         {
