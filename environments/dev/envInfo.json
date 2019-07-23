@@ -7,7 +7,7 @@
     "latestVersionInfo": {
         "propertyVersion": 33,
         "updatedByUser": "qvwonvxqatf6ad5i",
-        "updatedDate": "2019-07-22T19:11:14Z",
+        "updatedDate": "2019-07-22T19:11:17Z",
         "productionStatus": "INACTIVE",
         "stagingStatus": "ACTIVE",
         "etag": "7a17fe09c0e21d7a8d2cb03f8b31c437686c88c0",
@@ -115,14 +115,11 @@
     "activeIn_STAGING_Info": {
         "propertyVersion": 33,
         "updatedByUser": "qvwonvxqatf6ad5i",
-        "updatedDate": "2019-07-18T02:48:59Z",
+        "updatedDate": "2019-07-22T19:11:17Z",
         "productionStatus": "INACTIVE",
         "stagingStatus": "ACTIVE",
         "etag": "7a17fe09c0e21d7a8d2cb03f8b31c437686c88c0",
         "productId": "prd_SPM",
         "ruleFormat": "v2017-06-19"
-    },
-    "pendingActivations": {
-        "STAGING": 7447269
     }
 }
