@@ -5,12 +5,12 @@
     "isSecure": true,
     "propertyId": 551797,
     "latestVersionInfo": {
-        "propertyVersion": 33,
+        "propertyVersion": 34,
         "updatedByUser": "qvwonvxqatf6ad5i",
         "updatedDate": "2019-07-22T19:11:14Z",
         "productionStatus": "INACTIVE",
         "stagingStatus": "ACTIVE",
-        "etag": "7a17fe09c0e21d7a8d2cb03f8b31c437686c88c0",
+        "etag": "bdd14e7625d4a0b9e6a113d855926b7b36e2775e",
         "productId": "prd_SPM",
         "ruleFormat": "v2017-06-19"
     },
@@ -113,12 +113,12 @@
     "lastSaveHostnameErrors": [],
     "lastSavedHostnamesHash": "edf2a9ee55979061df70a357417dcd1891fb2eb9b501a8c8f85d71cbd42fc6d0",
     "activeIn_STAGING_Info": {
-        "propertyVersion": 33,
+        "propertyVersion": 34,
         "updatedByUser": "qvwonvxqatf6ad5i",
         "updatedDate": "2019-07-18T02:48:59Z",
         "productionStatus": "INACTIVE",
         "stagingStatus": "ACTIVE",
-        "etag": "7a17fe09c0e21d7a8d2cb03f8b31c437686c88c0",
+        "etag": "bdd14e7625d4a0b9e6a113d855926b7b36e2775e",
         "productId": "prd_SPM",
         "ruleFormat": "v2017-06-19"
     },
