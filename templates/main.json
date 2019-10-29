@@ -8,9 +8,7 @@
             "#include:mPulse.json",
             "#include:X-Frame-Options.json",
             "#include:Deny_Specific_Referrer.json",
-            "#include:Deny_Specific_Referrer_2.json",
-            "#include:Deny_by_Location.json",
-            "#include:Add_Header_Demo.json"
+            "#include:Deny_by_Location.json"
         ],
         "behaviors": [
             {
@@ -22,7 +20,7 @@
                     "forwardHostHeader": "ORIGIN_HOSTNAME",
                     "httpPort": 80,
                     "originType": "CUSTOMER",
-                    "hostname": "origin.akshayranganath.com",
+                    "hostname": "${env.myOrigin}",
                     "originCertificate": "",
                     "verificationMode": "PLATFORM_SETTINGS",
                     "ports": "",
@@ -52,7 +50,7 @@
             {
                 "name": "removeVary",
                 "options": {
-                    "enabled": true
+                    "enabled": false
                 }
             },
             {

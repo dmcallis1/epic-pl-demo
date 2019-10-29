@@ -475,35 +475,6 @@
                 "criteriaMustSatisfy": "all"
             },
             {
-                "name": "Deny Specific Referrer",
-                "children": [],
-                "behaviors": [
-                    {
-                        "name": "denyAccess",
-                        "options": {
-                            "reason": "undesired-referer",
-                            "enabled": true
-                        }
-                    }
-                ],
-                "criteria": [
-                    {
-                        "name": "requestHeader",
-                        "options": {
-                            "headerName": "Referer",
-                            "matchWildcardName": false,
-                            "matchOperator": "IS_ONE_OF",
-                            "values": [
-                                "http://ww.fastly.com"
-                            ],
-                            "matchCaseSensitiveValue": false,
-                            "matchWildcardValue": true
-                        }
-                    }
-                ],
-                "criteriaMustSatisfy": "all"
-            },
-            {
                 "name": "Deny by Location",
                 "children": [],
                 "behaviors": [
@@ -542,7 +513,7 @@
                     "forwardHostHeader": "ORIGIN_HOSTNAME",
                     "httpPort": 80,
                     "originType": "CUSTOMER",
-                    "hostname": "origin.akshayranganath.com",
+                    "hostname": "origin-gcp.duncanmcallister.com",
                     "originCertificate": "",
                     "verificationMode": "PLATFORM_SETTINGS",
                     "ports": "",
@@ -572,7 +543,7 @@
             {
                 "name": "removeVary",
                 "options": {
-                    "enabled": true
+                    "enabled": false
                 }
             },
             {

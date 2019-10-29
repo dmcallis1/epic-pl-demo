@@ -15,6 +15,10 @@
         "PMUSER_ADV2_value": {
             "type": "userVariableValue",
             "default": "1"
+        },
+        "myOrigin": {
+            "type": "string",
+            "default": "origin-gcp.duncanmcallister.com"
         }
     }
 }
