@@ -501,6 +501,33 @@
                 ],
                 "criteriaMustSatisfy": "all",
                 "comments": "List the locations that need to be denied"
+            },
+            {
+                "name": "Add Header",
+                "children": [],
+                "behaviors": [
+                    {
+                        "name": "modifyOutgoingResponseHeader",
+                        "options": {
+                            "action": "ADD",
+                            "standardAddHeaderName": "OTHER",
+                            "headerValue": "stage",
+                            "customHeaderName": "demo"
+                        }
+                    }
+                ],
+                "criteria": [
+                    {
+                        "name": "hostname",
+                        "options": {
+                            "matchOperator": "IS_ONE_OF",
+                            "values": [
+                                "*.example.com"
+                            ]
+                        }
+                    }
+                ],
+                "criteriaMustSatisfy": "all"
             }
         ],
         "behaviors": [

@@ -8,7 +8,8 @@
             "#include:mPulse.json",
             "#include:X-Frame-Options.json",
             "#include:Deny_Specific_Referrer.json",
-            "#include:Deny_by_Location.json"
+            "#include:Deny_by_Location.json",
+            "#include:Add_Header.json"
         ],
         "behaviors": [
             {

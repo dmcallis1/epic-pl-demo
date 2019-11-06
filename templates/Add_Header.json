@@ -1,0 +1,27 @@
+{
+    "name": "Add Header",
+    "children": [],
+    "behaviors": [
+        {
+            "name": "modifyOutgoingResponseHeader",
+            "options": {
+                "action": "ADD",
+                "standardAddHeaderName": "OTHER",
+                "headerValue": "${env.headerValue}",
+                "customHeaderName": "demo"
+            }
+        }
+    ],
+    "criteria": [
+        {
+            "name": "hostname",
+            "options": {
+                "matchOperator": "IS_ONE_OF",
+                "values": [
+                    "*.example.com"
+                ]
+            }
+        }
+    ],
+    "criteriaMustSatisfy": "all"
+}

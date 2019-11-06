@@ -19,6 +19,10 @@
         "myOrigin": {
             "type": "string",
             "default": "origin-gcp.duncanmcallister.com"
+        },
+        "headerValue": {
+            "type": "string",
+            "default": null
         }
     }
 }
