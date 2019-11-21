@@ -17,7 +17,7 @@
                 "field": "CONTINENT",
                 "checkIps": "CONNECTING",
                 "continentValues": [
-                    "NA"
+                    "SA"
                 ],
                 "matchOperator": "IS_ONE_OF"
             }

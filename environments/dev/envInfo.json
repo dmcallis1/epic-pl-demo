@@ -5,20 +5,20 @@
     "isSecure": true,
     "propertyId": 551797,
     "latestVersionInfo": {
-        "propertyVersion": 56,
+        "propertyVersion": 62,
         "updatedByUser": "qvwonvxqatf6ad5i",
-        "updatedDate": "2019-11-06T17:03:09Z",
+        "updatedDate": "2019-11-20T20:55:28Z",
         "productionStatus": "INACTIVE",
         "stagingStatus": "PENDING",
-        "etag": "4507ffd77d43111f22ca135fd7961f4443330e4e",
+        "etag": "f258f50304ea7c6bcc46366dbe40f9177ab9a79d",
         "productId": "prd_SPM",
         "ruleFormat": "v2017-06-19"
     },
     "suggestedRuleFormat": "v2017-06-19",
-    "environmentHash": "8a1c31c1f5c6d495f3bef318fa6f73d2fd8eb161db8cc4e9009eb02a6bdcd305",
-    "ruleTreeHash": "2131298f5d886810c29ea1c71291c8b448e052ffe8c04ce1e124ee1821974e06",
-    "lastSavedHash": "8a1c31c1f5c6d495f3bef318fa6f73d2fd8eb161db8cc4e9009eb02a6bdcd305",
-    "lastValidatedHash": "8a1c31c1f5c6d495f3bef318fa6f73d2fd8eb161db8cc4e9009eb02a6bdcd305",
+    "environmentHash": "54b7c7e192969d6fe94ff258c6a2b0ae813cda3f3d60348ec8281b389313d6e5",
+    "ruleTreeHash": "4890b1f7e644f66f549e50c633836d2ca3995aa588d3977f675808a9a992fa9d",
+    "lastSavedHash": "54b7c7e192969d6fe94ff258c6a2b0ae813cda3f3d60348ec8281b389313d6e5",
+    "lastValidatedHash": "54b7c7e192969d6fe94ff258c6a2b0ae813cda3f3d60348ec8281b389313d6e5",
     "lastSaveWarnings": [
         {
             "type": "https://problems.luna.akamaiapis.net/papi/v0/validation/validation_message.ssl_delegate_warning_intro",
@@ -35,7 +35,7 @@
                         "forwardHostHeader": "ORIGIN_HOSTNAME",
                         "httpPort": 80,
                         "originType": "CUSTOMER",
-                        "hostname": "origin-gcp.duncanmcallister.com",
+                        "hostname": "origin-dev.duncanmcallister.com",
                         "originCertificate": "",
                         "verificationMode": "PLATFORM_SETTINGS",
                         "ports": "",
@@ -61,7 +61,7 @@
                         "forwardHostHeader": "ORIGIN_HOSTNAME",
                         "httpPort": 80,
                         "originType": "CUSTOMER",
-                        "hostname": "origin-gcp.duncanmcallister.com",
+                        "hostname": "origin-dev.duncanmcallister.com",
                         "originCertificate": "",
                         "verificationMode": "PLATFORM_SETTINGS",
                         "ports": "",
@@ -100,7 +100,7 @@
                         "field": "CONTINENT",
                         "checkIps": "CONNECTING",
                         "continentValues": [
-                            "NA"
+                            "SA"
                         ],
                         "matchOperator": "IS_ONE_OF"
                     }
@@ -113,16 +113,16 @@
     "lastSaveHostnameErrors": [],
     "lastSavedHostnamesHash": "edf2a9ee55979061df70a357417dcd1891fb2eb9b501a8c8f85d71cbd42fc6d0",
     "activeIn_STAGING_Info": {
-        "propertyVersion": 55,
+        "propertyVersion": 61,
         "updatedByUser": "qvwonvxqatf6ad5i",
-        "updatedDate": "2019-11-06T16:58:59Z",
+        "updatedDate": "2019-11-20T18:12:37Z",
         "productionStatus": "INACTIVE",
         "stagingStatus": "ACTIVE",
-        "etag": "37cb56a00849b5e0b7d728104dfb9e00a3088402",
+        "etag": "7e53d694a2a9504bc07bc92828fbcb8923744dff",
         "productId": "prd_SPM",
         "ruleFormat": "v2017-06-19"
     },
     "pendingActivations": {
-        "STAGING": 7821455
+        "STAGING": 7873027
     }
 }

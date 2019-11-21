@@ -493,7 +493,7 @@
                             "field": "CONTINENT",
                             "checkIps": "CONNECTING",
                             "continentValues": [
-                                "NA"
+                                "SA"
                             ],
                             "matchOperator": "IS_ONE_OF"
                         }
@@ -501,33 +501,6 @@
                 ],
                 "criteriaMustSatisfy": "all",
                 "comments": "List the locations that need to be denied"
-            },
-            {
-                "name": "Add Header",
-                "children": [],
-                "behaviors": [
-                    {
-                        "name": "modifyOutgoingResponseHeader",
-                        "options": {
-                            "action": "ADD",
-                            "standardAddHeaderName": "OTHER",
-                            "headerValue": "dev",
-                            "customHeaderName": "demo"
-                        }
-                    }
-                ],
-                "criteria": [
-                    {
-                        "name": "hostname",
-                        "options": {
-                            "matchOperator": "IS_ONE_OF",
-                            "values": [
-                                "*.example.com"
-                            ]
-                        }
-                    }
-                ],
-                "criteriaMustSatisfy": "all"
             }
         ],
         "behaviors": [
@@ -540,7 +513,7 @@
                     "forwardHostHeader": "ORIGIN_HOSTNAME",
                     "httpPort": 80,
                     "originType": "CUSTOMER",
-                    "hostname": "origin-gcp.duncanmcallister.com",
+                    "hostname": "origin-dev.duncanmcallister.com",
                     "originCertificate": "",
                     "verificationMode": "PLATFORM_SETTINGS",
                     "ports": "",
@@ -570,7 +543,7 @@
             {
                 "name": "removeVary",
                 "options": {
-                    "enabled": false
+                    "enabled": true
                 }
             },
             {
